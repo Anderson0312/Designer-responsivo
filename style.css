@@ -1,44 +1,59 @@
-/* Layout Mobile */
-
-body {
-
-    background: #008000;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
 }
 
-h1 {
-    color: #FFF;
+header h1 {
+    text-align: center;
+    padding: 2rem;
+    background-color: #3F6473;
+    color: #E4EDF2;
+    font-weight: 700;
 }
 
-/* Aparelhos pequenos (tablets, 768px e acima) */
-@media (min-width: 768px) {
 
-    body{
-        background: #FFFF00;
-    }
-
-    h1{
-        color: #fff;
-    }
-
+.nav {
+    background-color: #403D40;
 }
 
-/*Aparelhos Médios (desktops, 992px e acima) */
-@media (min-width: 992px) {
-
-    body {
-        background-color: #0000FF;
-    }
-
-
+.Home{
+    background-color: #6A9BA6;
+}
+.nav a {
+    color: #E4EDF2;
 }
 
-/* Aparelhos Grandes (desktops grandes, 1200px e acima) */
-@media (min-width: 1200px) {
-
-    body {
-
-        background: #800080;
-
-    }
-
+.nav-item:hover{
+    background-color: #BFBFBF;
+    
 }
+
+.nav-item a:hover{
+    color:#403D40 ;
+ }
+
+
+main {
+    background-color:#c9d0d4;
+    display: flex;
+}
+
+.container {
+    background-color:#BFBFBF;
+    display: flex;
+    margin: 2rem;
+}
+
+
+
+
+
+
+
+ .container-fluid {
+    background-color: #403D40;
+    text-align: center;
+    padding: 1.5rem;
+    color: #E4EDF2;
+ }
